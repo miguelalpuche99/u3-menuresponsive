@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/2ee0245f3d.js' crossorigin='anonymous'></script>
+    <script src='https://code.jquery.com/jquery-3.6.1.js'></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="barra-color">
+            <div class="header-movil">
+                <h1>ITSOFT</h1>
+                <div class="menu-movil">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header-desktop ancho">
+            <div class="logo">
+                <h1>IT-</h1>
+                <h1 class="orange">So</h1>
+                <h1>ft</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href='#'>Home</a></li>
+                    <li><a href='#'>Company</a></li>
+                    <li><a href='#'>Services</a></li>
+                    <li><a href='#'>Project</a></li>
+                    <li><a href='#'>Blog</a></li>
+                    <li><a href='#'>Contact</a></li>
+                    <li class="consulta"><a href='#'>Get Consultant</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="primero ancho">
+            <h2>secure & it services</h2>
+            <h3>Excellent IT services <br> for your success</h3>
+            <p>Aspernatur corrupti ab incidunt! Laudantium, officia voluptatibus.</p>
+            <div class="contenedor-botones">
+                <a href="#" class="btn"><p>Learn more <i class="fa-solid fa-angle-right"></i></p></i></a>
+                <a href="#" class="btn-circulo"><i class="fa-solid fa-play"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about ancho">
+        <figure class="foto1">
+            <img src="imagenes/foto1.jpeg" alt="">
+        </figure>
+        <div class="info">
+            <h3 class="orange">// ABOUT COMPANY</h3>
+            <div class="info-titulo">
+                <h4>We Deal With The Aspects Of</h4>
+                <div>
+                    <h4>Professional </h4>    
+                    <h4 class="orange">IT Services</h4>
+                </div>
+            </div>
+            <div class="barra"></div>
+            <p>ITSoft is the partner of choice for many of the world's leading and enterprises, SMEs and technology challengers. We help businesses elevate their value through custom software development.</p>
+            <div class="icons">
+                <figure>
+                    <img src="imagenes/icono1.jpg" alt="">
+                </figure>
+                <div>
+                    <h5>User Experience</h5>
+                    <p>Skilled professionals are always ready to provide reliable services to our clients!</p>
+                </div>
+            </div>
+            <div class="icons">
+                <figure>
+                    <img src="imagenes/icono2.jpg" alt="">
+                </figure>
+                <div>
+                    <h5>Quick Support</h5>
+                    <p>Branches are situated in major metro cities and over seas, always open for you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+    </footer>
+    <script>
+        //script para el menu desplegable
+        $(".menu-movil").click(function () {
+            $(".header-desktop").slideToggle();
+        });
+    </script>  
+</body>
+</html>
